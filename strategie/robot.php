@@ -22,4 +22,5 @@ abstract class Robot {
     public function communiquer() {
        echo $this->communication->doCommunication();
     }
+
 }

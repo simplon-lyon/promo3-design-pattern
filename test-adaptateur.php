@@ -20,3 +20,13 @@ $humain = new Humain("henri", " ");
 $adaptateur = new HumainToRobot($humain);
 //Qui peut du coup ouvrir la porte de la pièce
 $piece->ouvrirPorte($adaptateur);
+
+use adaptateur\exercice\OldCalculus;
+use adaptateur\exercice\CalculusAdapter;
+
+$calculus = new CalculusAdapter(new OldCalculus());
+
+echo $calculus->operation(1,2,'+');
+echo $calculus->operation(1,2,'-');
+echo $calculus->operation(1,2,'*');
+echo $calculus->operation(1,2,'/');

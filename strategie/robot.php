@@ -23,4 +23,7 @@ abstract class Robot {
        echo $this->communication->doCommunication();
     }
 
+    public function __toString() {
+        return "Robot dernier cri";
+    }
 }

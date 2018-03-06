@@ -1,2 +1,6 @@
 LOG : START Robot communiquer()
 LOG : END Robot communiquer()
+LOG : START Robot actionner()
+LOG : END Robot actionner()
+LOG : START Robot communiquer()
+LOG : END Robot communiquer()
